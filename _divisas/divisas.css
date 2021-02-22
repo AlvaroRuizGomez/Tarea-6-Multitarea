@@ -1,3 +1,83 @@
 body {
     background-color: green;
 }
+
+body {
+    height: 100%;
+    color: rgb(244, 247, 247);
+}
+
+.contenedor {
+    width: 51%;
+    background-color: rgb(7, 63, 23);
+    border-radius: 20px;
+    margin-left: 300px;
+    height: 43px;
+    box-shadow: 0px 0px 1px rgb(0 0 0 / 30%), 0px 3px 7px rgb(0 0 0 / 30%), 0px 0px 1px white inset, 0px -3px 2px rgb(0 0 0 / 30%) inset;
+}
+
+main {
+    display: block;
+    width: 50%;
+    /* background-color: #2b5a39; */
+    width: 100%;
+    background-color: rgb(7, 63, 23);
+    border-radius: 20px;
+    margin-left: 3px;
+    height: 55px;
+    box-shadow: 0px 0px 1px rgb(0 0 0 / 30%), 0px 3px 7px rgb(0 0 0 / 30%), 0px 0px 1px white inset, 0px -3px 2px rgb(0 0 0 / 30%) inset;
+}
+
+h1 {
+    margin-left: 173px;
+    margin-top: 55px;
+}
+
+.formulario {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 300px 208px 130px;
+    box-shadow: 1 20px 20px rgba(0, 0, 0, 0.4);
+}
+
+.importIn {
+    margin-left: 22px;
+    margin-top: 11px;
+}
+
+.divisa1In {
+    margin-left: 7px;
+    margin-top: 11px;
+}
+
+.divisa2In {
+    margin-left: 20px;
+    margin-top: 11px;
+}
+
+.importe {
+    width: 45px;
+    height: 6px;
+}
+
+.divisa1,
+.divisa2 {
+    width: 90px;
+    height: 30px;
+}
+
+input,button {
+    padding: 10px;
+    border: 2px solid black;
+}
+
+.convertir {
+    padding: 20px;
+    cursor: pointer;
+    background-color: rgb(20, 148, 9);
+    border-radius: 5px;
+    font-weight: bolder;
+    color: white;
+    margin-top: 30px;
+    box-shadow: 0px 0px 1px rgb(0 0 0 / 30%), 0px 3px 7px rgb(0 0 0 / 30%), 0px 0px 1px white inset, 0px -3px 2px rgb(0 0 0 / 30%) inset;
+}

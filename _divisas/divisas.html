@@ -8,8 +8,38 @@
     <title>$$ Divisas $$</title>
 </head>
 <body>
-    <h1>DIVI$A$</h1>
+    <div class="contenedor">
+        <h1>Conversor de Divi$a$</h1>
+        <main>
+            <form id="formulario" class="formulario">
+                <div class="importIn">
+                    <label for="importe">Ingrese el importe a convertir :</label>
+                    <input type="number" name="importe" id="importe" class="importe" value="" placeholder="10" 
+                    autocomplete="off">
+                </div>
 
+                <div class="divisa1In">
+                    <label for="divisa1">De que moneda:</label>
+                    <select name="divisa1" id="divisa1" class="divisa1">
+                        <option value="euros" selected>Euros €</option>
+                        <option value="dolares">Dolares $</option>
+                    </select>
+                </div>
+
+                <div class="divisa2In">
+                    <label for="divisa2">A:</label>
+                    <select name="divisa2" id="divisa2" class="divisa2">
+                        <option value="euros">Euros €</option>
+                        <option value="dolares" selected>Dolares $</option>
+                    </select>
+                </div>
+            </form>
+        </main>
+        <button type="submit" id="botonConvertir" class="convertir">Convertir</button>
+        <h1 id="resultado"></h1>
+    </div>
+
+    
     <script src="divisas.js"></script>
 </body>
 </html>
