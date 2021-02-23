@@ -16,7 +16,7 @@ autonomo.addEventListener("click", () =>
 
 zombie.addEventListener("click", () =>
 {
-    window.location.href = "../_zombie/zombie.html";
+    window.location.href = "../_zombies/zombies.html";
 });
 
 calculator.addEventListener("click", () =>
